@@ -78,8 +78,8 @@ export default function HomePage() {
           </p>
 
           <div className="flex items-baseline gap-3 mb-10">
-            <span className="font-display text-5xl font-bold text-gold-400">₨1,800</span>
-            <span className="text-white/30 line-through text-xl font-sans">₨3,500</span>
+            <span className="font-display text-5xl font-bold text-gold-400">₨4,900</span>
+            <span className="text-white/30 line-through text-xl font-sans">₨7,300</span>
             <span className="text-xs font-sans bg-gold-600/20 text-gold-400 border border-gold-600/30 px-2 py-1 rounded-sm uppercase tracking-wider">
               49% OFF
             </span>
