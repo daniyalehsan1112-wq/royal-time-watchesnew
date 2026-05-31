@@ -11,12 +11,12 @@ import StickyOrderBar from '@/components/StickyOrderBar';
 export default function HomePage() {
   const orderRef = useRef(null);
   
-  // Slide state and image placeholders
+  // Slide state and updated image filenames
   const [currentSlide, setCurrentSlide] = useState(0);
   const images = [
-    '/watch-1.png',
-    '/watch-2.png',
-    '/watch-3.png'
+    '/ssstik.io_1780182061621.webp',
+    '/ssstik.io_1780182066290.webp',
+    '/ssstik.io_1780182070257.webp'
   ];
 
   const nextSlide = () => setCurrentSlide((prev) => (prev + 1) % images.length);
@@ -121,4 +121,4 @@ export default function HomePage() {
 
     </main>
   );
-        }
+            }
