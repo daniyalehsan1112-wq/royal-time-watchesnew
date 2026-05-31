@@ -106,8 +106,19 @@ export default function HomePage() {
 
         </div>
       </section>
+
+      {/* ── SECTIONS RESTORED ── */}
+      <Features />
+      <TrustBadges />
       
-      {/* Ensure remaining sections (OrderForm, Reviews, etc.) are rendered below here if they exist in your actual file */}
+      <div ref={orderRef}>
+        <OrderForm />
+      </div>
+      
+      <Reviews />
+      <FAQ />
+      <StickyOrderBar />
+
     </main>
   );
         }
